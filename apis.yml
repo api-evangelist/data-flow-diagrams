@@ -1,14 +1,11 @@
 name: Data Flow Diagrams
-description: A graphical representation of data flow through a system, showing how
-  data is processed, stored, and transformed between different components and external
-  entities. Organizations adopt it to address specific technical or business challenges
-  in their environments.
+description: A graphical representation of data flow through a system, showing how data is processed, stored, and transformed between different components and external entities. Organizations adopt it to address specific technical or business challenges in their environments.
 url: https://en.wikipedia.org/wiki/Data-flow_diagram
 tags:
-- Software Engineering
-- System Design
-- Documentation
-- Visualization
+  - Documentation
+  - Software Engineering
+  - System Design
+  - Visualization
 created: '2025-01-01'
 modified: '2026-03-16'
 apis: []
