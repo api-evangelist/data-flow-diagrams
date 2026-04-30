@@ -1,0 +1,66 @@
+name: Data Flow Diagrams Vocabulary
+description: >-
+  Vocabulary of data flow diagram (DFD) concepts, notation elements, and
+  practices spanning Yourdon/DeMarco, Gane-Sarson, and modern threat
+  modeling usage.
+terms:
+  - term: Process
+    definition: >-
+      A transformation that takes input data and produces output data,
+      drawn as a circle (Yourdon/DeMarco) or rounded rectangle
+      (Gane-Sarson).
+  - term: Data Store
+    definition: >-
+      A repository where data is held for use by one or more processes,
+      drawn as two parallel lines or an open-ended rectangle.
+  - term: External Entity
+    definition: >-
+      A source or sink of data outside the system boundary such as a
+      user, partner system, or organization, drawn as a rectangle.
+  - term: Data Flow
+    definition: >-
+      A directed arrow showing the movement of data between processes,
+      data stores, and external entities, labeled with the data being
+      transferred.
+  - term: Trust Boundary
+    definition: >-
+      A line on a DFD that separates components with different levels
+      of trust, used heavily in threat modeling to identify attack
+      surfaces.
+  - term: Context Diagram
+    definition: >-
+      The level-0 DFD that shows the entire system as a single process
+      with its external entities and top-level data flows.
+  - term: Level-1 Diagram
+    definition: >-
+      A decomposition of the context diagram into the major sub-processes
+      of the system with their data stores and flows.
+  - term: Level-N Decomposition
+    definition: >-
+      Successive expansion of a process into more detailed sub-processes
+      while preserving balanced flows with the parent diagram.
+  - term: Balancing
+    definition: >-
+      The rule that inputs and outputs of a parent process must match
+      the aggregate inputs and outputs of its child diagram.
+  - term: Yourdon-DeMarco Notation
+    definition: >-
+      A DFD style using circles for processes, named for Tom DeMarco
+      and Edward Yourdon.
+  - term: Gane-Sarson Notation
+    definition: >-
+      A DFD style using rounded rectangles for processes and open
+      rectangles for data stores, named for Chris Gane and Trish Sarson.
+  - term: STRIDE
+    definition: >-
+      Microsoft threat classification (Spoofing, Tampering, Repudiation,
+      Information disclosure, Denial of service, Elevation of privilege)
+      applied to elements of a DFD.
+  - term: Logical DFD
+    definition: >-
+      A DFD that describes what the system does without committing to
+      implementation details.
+  - term: Physical DFD
+    definition: >-
+      A DFD that describes how the system is implemented including
+      specific people, systems, files, and technologies.
