@@ -38,19 +38,19 @@ common:
     description: OWASP guidance on using DFDs for application threat modeling.
   - url: https://learn.microsoft.com/en-us/azure/security/develop/threat-modeling-tool
     name: Microsoft Threat Modeling Tool
-    type: Tool
+    type: Tools
     description: Microsoft tool that uses DFDs to identify STRIDE threats.
   - url: https://www.drawio.com/
     name: draw.io
-    type: Tool
+    type: Tools
     description: Free diagramming tool widely used for drawing data flow diagrams.
   - url: https://mermaid.js.org/syntax/flowchart.html
     name: Mermaid Flowcharts
-    type: Tool
+    type: Tools
     description: Text-based diagram syntax used to render DFD-style flowcharts.
   - url: https://plantuml.com/
     name: PlantUML
-    type: Tool
+    type: Tools
     description: Text-based UML and diagram tool that supports flow notation.
   - url: vocabulary/data-flow-diagrams-vocabulary.yml
     name: Vocabulary
