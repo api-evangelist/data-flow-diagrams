@@ -7,9 +7,20 @@ description: >-
   hierarchical context and level-N decomposition, and modern tooling for
   threat modeling, software architecture, and data governance.
 kind: topic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/data-flow-diagrams.png
 tags:
   - Data Flow Diagrams
   - Documentation
